@@ -15,33 +15,7 @@ The project progresses from number theory exercises to practical key generation,
 - Ciphertext saved as a binary file and printed in Base64 during encryption.
 - Mathematical key consistency checks: `n == p * q` and `(e * d) % lcm(p - 1, q - 1) == 1`.
 
-## Project files
 
-The following names match the supplied Python scripts. Put the scripts at the repository root, or adjust paths/imports if you reorganize them.
-
-```text
-RSA-Cryptographic-Algorithm-Implementation/
-├── prime_factorization.py
-├── Eulers'_Totient_Finction.py
-├── Fermat's_Factorization.py
-├── GCD_Euclidean_Algorithm.py
-├── Modular_Arithmetic.py
-├── extended_euclidean.py
-├── modular_inverse.py
-├── binary_modular_exponentiation.py
-├── miller_rabin.py
-├── rsa_key_generation.py
-├── rsa_encryption.py
-├── rsa_decryption.py
-├── .gitignore
-└── README.md
-
-# Generated locally (ignored by Git):
-# keys/private_key.pem
-# keys/public_key.pem
-# encrypted_message.bin
-# .venv/
-```
 
 ### Mathematical foundations
 
