@@ -1,0 +1,9 @@
+# Ignore RSA private keys
+keys/private_key.pem
+
+# Ignore Python virtual environment
+.venv/
+__pycache__/
+
+# Ignore environment variables
+.env
